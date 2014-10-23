@@ -1,0 +1,124 @@
+body{
+	margin:0;
+}
+
+h1{
+	font-family:  Cochin, Didot, Times New Roman, serif;
+	/*font-family:'Knockout 47 A', 'Knockout 47B', Arial;*/
+
+	color: white;
+	text-transform:uppercase;
+	background:#114A99;
+	padding-right: 50px;
+	padding-top: 15px;
+	margin-top: -5px;
+	font-weight: lighter;
+	text-align: right;
+}
+h2 {
+	margin-bottom:0px;
+}
+#header {
+	display: inline-block;
+	background:#114A99;
+	width:100%;
+	height:70px;
+	position:absolute;
+	padding: 7px;
+}
+
+#header img {
+	height:20px;
+
+}
+
+.content{
+	margin-top: 0;
+	display: block;
+	padding: 3em;
+	padding-top: 120px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#about{
+	width:40%;
+	float:left;
+
+}
+#media{
+	float:left;
+	max-width:400px;
+}
+#media img{
+	max-width:100%;
+	margin-left:0;
+}
+
+.slick-track{
+ 	margin-left:50px;
+ 	margin-right:50px;
+}
+#footer{
+    width: 100%;
+    height: 3em;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.slick-slider img{
+	height:100px;
+	width:100px;
+}
+.slide.slick-slide.slick-active{
+	width:100px;
+}
+.content-item{
+	height:360px;
+	margin:20px;
+}
+/*
+#ad-wrapper{
+	width:100%;
+	clear:both;
+	margin-right: auto;
+	margin-left:auto;
+	margin-top: 75px;
+}
+#ad-wrapper a{
+	width:80%;
+}*/
+#ad-banner{
+padding-left: 10px;
+margin-left:auto;
+margin-right:auto;
+}
+#ad-banner img{
+	width:100%;
+}
+#left{
+	position:relative;
+	margin-top:100px;
+	float:left;
+	width:70%;
+}
+#right{
+	position:relative;
+	margin-top:100px;
+	margin-left:5px;
+	margin-right:5px;
+	max-width:28%;
+	float:left;
+}
+.box-ad img{
+	width:100%;
+	height:auto;
+
+}
+
+@media only screen and(max-width:800px){
+	#left{ width:100%; }
+}
+
+
+/*1070 702*/
