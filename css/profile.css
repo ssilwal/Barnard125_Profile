@@ -37,7 +37,7 @@ h2 {
 	display: block;
 	padding: 3em;
 	padding-top: 120px;
-	width: 90%;
+	width: 90%;`
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -45,12 +45,8 @@ h2 {
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
-	
-	height: 30rem;
-
 }
 #media{
-	float:left;
 	width: 90%;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -62,6 +58,10 @@ h2 {
 #media img{
 	max-width:100%;
 	margin-left:0;
+}
+#media p{
+	margin-top:0;
+	margin-bottom:0;
 }
 
 .slick-track{
@@ -122,12 +122,26 @@ margin-right:auto;
 .box-ad img{
 	width:100%;
 	height:auto;
+	margin-bottom:2em;
 
 }
 
 @media only screen and (max-width:800px){ /*Smita added space here*/
 	#left{ width:100%; }
+	#right{
+		max-width:100%;
+		width:90%;
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:0;
+
+	}
+	.box-ad{
+		max-width:30%;
+		display:inline-block;
+	}
 }
+	
 .slider-wrapper{
 	display:block;
 }
