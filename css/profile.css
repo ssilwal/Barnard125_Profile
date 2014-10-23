@@ -90,6 +90,7 @@ h2 {
 }*/
 #ad-banner{
 padding-left: 10px;
+padding-right: 10px; /*added by Smita*/
 margin-left:auto;
 margin-right:auto;
 }
@@ -107,7 +108,7 @@ margin-right:auto;
 	margin-top:100px;
 	margin-left:5px;
 	margin-right:5px;
-	max-width:28%;
+	/*max-width:28%;*/ /*removed by Smita*/
 	float:left;
 }
 .box-ad img{
@@ -116,7 +117,7 @@ margin-right:auto;
 
 }
 
-@media only screen and(max-width:800px){
+@media only screen and (max-width:800px){ /*Smita added space here*/
 	#left{ width:100%; }
 }
 
