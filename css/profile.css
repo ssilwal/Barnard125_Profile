@@ -51,7 +51,7 @@ h2 {
 	margin-left: 5%;
 	margin-right: 5%;
 	background: url('img/face.jpg');
-	height: 30rem;
+	/*height: 30rem; Sneha commented it out*/
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -147,7 +147,24 @@ margin-right:auto;
 		display:inline-block;
 	}
 }
-	
+@media only screen and (max-width:500px){ /*Smita added space here*/
+	#right{
+		max-width:100%;
+		width:90%;
+		margin-left:10%;
+		margin-right:10%;
+		margin-top:0;
+	}
+	.box-ad{
+		max-width:70%;
+		margin-left:15%;
+		margin-right:15%;
+		display:block;
+	}
+	#media{
+		height:20em;
+	}
+}
 .slider-wrapper{
 	display:block;
 }
