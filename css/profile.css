@@ -42,13 +42,22 @@ h2 {
 	margin-right: auto;
 }
 #about{
-	width:40%;
-	float:left;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	height: 30rem;
 
 }
 #media{
 	float:left;
-	max-width:400px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	background: url('img/face.jpg');
+	height: 30rem;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 #media img{
 	max-width:100%;
@@ -74,7 +83,6 @@ h2 {
 	width:100px;
 }
 .content-item{
-	height:360px;
 	margin:20px;
 }
 /*
@@ -108,7 +116,7 @@ margin-right:auto;
 	margin-top:100px;
 	margin-left:5px;
 	margin-right:5px;
-	/*max-width:28%;*/ /*removed by Smita*/
+	max-width:28%; /*removed by Smita*/
 	float:left;
 }
 .box-ad img{
@@ -119,6 +127,9 @@ margin-right:auto;
 
 @media only screen and (max-width:800px){ /*Smita added space here*/
 	#left{ width:100%; }
+}
+.slider-wrapper{
+	display:block;
 }
 
 
